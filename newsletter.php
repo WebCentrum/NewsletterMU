@@ -206,14 +206,14 @@
 										<td class="sk-block sk-pl20 sk-pr20 sk-pb0" style="vertical-align: top; padding: 15px 0 50px;">
 											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 												<tr>
-													<td style="width: 100px;">
+													<td style="width: 120px;">
 														<p style="margin: 0; line-height: 1;">
 															<a href="#" style="text-decoration: none;">
-																<img src="./img/logo-muni.png" alt="Masarykova univerzita" width="100" height="29" style="vertical-align: top; border: none;">
+																<img src="http://newsletter-muni2018.superkoderi.cz/img/logo-muni.png" alt="Masarykova univerzita" width="100" height="29" style="vertical-align: top; border: none;">
 															</a>
 														</p>
 													</td>
-													<td style="color: #0000DC; padding: 0 0 0 20px;;">
+													<td style="color: #0000DC; padding: 0;">
 														<p style="margin: 0; font-size: 15px; line-height: 17px;">
 															Masarykova<br> univerzita
 														</p>
@@ -1187,7 +1187,7 @@
 						</tr>
 					</table> <!-- / row main -->
 
-					<img src="./img/spacer.png" width="700" height="1" class="nl-hide" style="border: none; vertical-align: top; min-width: 700px; display: block;">
+					<img src="./img/spacer.png" width="700" height="1" class="sk-hide" style="border: none; vertical-align: top; min-width: 700px; display: block;">
 				</td>
 			</tr>
 		</table><!-- / wrap -->
@@ -1322,7 +1322,7 @@
 						</tr>
 					</table> <!-- / row main -->
 
-					<img src="./img/spacer.png" width="700" height="1" class="nl-hide" style="border: none; vertical-align: top; min-width: 700px; display: block;">
+					<img src="./img/spacer.png" width="700" height="1" class="sk-hide" style="border: none; vertical-align: top; min-width: 700px; display: block;">
 				</td>
 			</tr>
 		</table><!-- / footer -->
