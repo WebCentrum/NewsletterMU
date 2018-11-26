@@ -13,9 +13,7 @@
 		</title>
 
 		<?php
-			$color = '#002776';
-			$colorLight = '#99a9c8';
-			$colorBorder = '#ccd4e4';
+			$color = '#0000DC';
 		?>
 
 		<!--[if !mso]><!-- -->
@@ -189,39 +187,54 @@
 		</style>
 		<!--<![endif]-->
 	</head>
-	<body style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; background:#ffffff; color:#444444; line-height:1.4285; width:100%; text-align:center; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+	<body style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; background:#ffffff; color:#000000; line-height:1.4285; width:100%; text-align:center; -webkit-font-smoothing:antialiased; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
 
 		<div style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
 			Krátky popis newsletteru, který se zobrazí za předmětem
 		</div> <!-- / pre-header -->
 
-		<table class="sk-block-table" width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center; background: #fff;">
+		<table class="sk-block-table" width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center; background: #FAFAFA; border-top: 6px solid <?php echo $color; ?>;">
 			<tr class="sk-block">
 				<td class="sk-block" align="center">
 
 					<table class="sk-block-table" width="700" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:700px; text-align: left;">
 						<tr class="sk-block">
 							<td class="sk-block">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
-									<tr>
-										<td class="sk-pl20 sk-pb40 sk-logo" style="vertical-align: top; padding: 0 0 60px;">
-											<p style="margin: 0; line-height: 1;">
-												<a href="#" style="text-decoration: none;">
-													<img class="sk-hide" src="./img/logo-muni<?php if ($_GET['color']) { echo '-'; echo $_GET['color']; } ?>.png" alt="Masarykova univerzita" width="167" height="114" style="vertical-align: top; border: none;" />
-												</a>
+								<table class="sk-block-table" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+									<tr class="sk-block">
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb0" style="vertical-align: top; padding: 15px 0 50px;">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+												<tr>
+													<td style="width: 100px;">
+														<p style="margin: 0; line-height: 1;">
+															<a href="#" style="text-decoration: none;">
+																<img src="./img/logo-muni.png" alt="Masarykova univerzita" width="100" height="29" style="vertical-align: top; border: none;">
+															</a>
+														</p>
+													</td>
+													<td style="color: #0000DC; padding: 0 0 0 20px;;">
+														<p style="margin: 0; font-size: 15px; line-height: 17px;">
+															Masarykova<br> univerzita
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb20 sk-tal" style="vertical-align: top; text-align: right; color: #0000DC; padding: 15px 0 50px;">
+											<p style="margin: 0; line-height: 18px;">
+												<span class="sk-hide">
+													<a href="#" style="color: #0000DC;">Webová verze</a> &nbsp;|&nbsp;
+													<a href="#" style="color: #0000DC;">online.muni.cz</a> &nbsp;|&nbsp;
+												</span>
+												Newsletter 02/2019 &nbsp;|&nbsp;
+												<span class="sk-hide">Odesláno</span> 17. 2. 2019<span class="sk-hide">, 8:36</span>
 											</p>
 										</td>
-										<td class="sk-pr20 sk-pb40 sk-pl30 sk-tal" style="vertical-align: top; padding: 0 0 60px; color: <?php echo $colorLight; ?>; font-size: 11px; text-align: right; font-family: Tahoma, Verdana, sans-serif;">
-											<p class="sk-mb30" style="margin: 10px 0 40px; line-height: 19px;">
-												<span class="sk-hide">
-													<a href="#" style="color: <?php echo $colorLight; ?>;">Webová verze</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-													<a href="#" style="color: <?php echo $colorLight; ?>;">online.muni.cz</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-												</span>
-												Newsletter 02/2017 &nbsp;&nbsp;|&nbsp;&nbsp;
-												<span class="sk-hide">Odesláno</span> 17. 2. 2017<span class="sk-hide">, 8:36</span>
-											</p>
-											<h1 class="sk-h1" style="margin: 0; line-height: 1;">
-												<img class="sk-hide" src="./img/h1.png" alt="Newsletter pro zaměstnance" width="380" height="35" style="vertical-align: top; border: none;" />
+									</tr>
+									<tr class="sk-block">
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb30" colspan="2" style="border-bottom: 2px solid #eeeeee; padding: 0 0 40px;">
+											<h1 style="font-size: 30px; line-height: 34px; font-weight: bold; color: #000; margin: 0;">
+												Newsletter pro zaměstnance
 											</h1>
 										</td>
 									</tr>
@@ -229,14 +242,14 @@
 
 								<table class="sk-block-table-all" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 									<tr>
-										<td class="sk-pb40 sk-pl20 sk-pr20" style="padding: 0 0 60px;">
+										<td class="sk-pb40 sk-pt40" style="padding: 60px 0;">
 											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 												<tr>
 													<td style="vertical-align: top;">
 														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 															<tr>
-																<td class="sk-pl20 sk-pr20 sk-pt20" style="color: #444; padding: 25px 30px 10px; border: 1px solid #ddd; border-top: 3px solid <?php echo $color; ?>;">
-																	<h2 class="sk-h2" style="font-size: 32px; line-height: 40px; font-family: Tahoma, Verdana, sans-serif; color: <?php echo $color; ?>; margin: 0 0 25px;">
+																<td class="sk-pl20 sk-pr20 sk-pt20" style="color: #000; padding: 25px 30px 10px; border: 2px solid #eeeeee; background: #fff;">
+																	<h2 class="sk-h2" style="font-size: 30px; line-height: 34px; margin: 0 0 25px;">
 																		<a href="#" style="text-decoration: none; color: <?php echo $color; ?>;">
 																			Barevné varianty
 																		</a>
@@ -280,24 +293,103 @@
 										</td>
 									</tr>
 								</table> <!-- / box white - type 1 -->
+							</td>
+						</tr>
+					</table> <!-- / row main -->
 
-								<table class="sk-block-table" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center; border-top: 1px solid #ddd;">
+					<img src="./img/spacer.png" width="700" height="1" class="nl-hide" style="border: none; vertical-align: top; min-width: 700px; display: block;">
+				</td>
+			</tr>
+		</table><!-- / wrap -->
+
+		<table class="sk-block-table" width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center; background: #fff;">
+			<tr class="sk-block">
+				<td class="sk-block" align="center">
+
+					<table class="sk-block-table" width="700" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:700px; text-align: left;">
+						<tr class="sk-block">
+							<td class="sk-block">
+
+								<table class="sk-block-table" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center;">
 									<tr class="sk-block">
-										<td class="sk-block" align="center" style="padding: 0 0 60px;">
-											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center; border-bottom: 1px solid #ddd;">
+										<td class="sk-block" style="padding: 0 0 60px;">
+											<table class="sk-block-table-all" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left; border-bottom: 1px solid #eee;">
 												<tr>
-													<td align="center" style="padding: 25px 0;">
+													<td class="sk-pl20 sk-pr20 sk-pb0 sk-tac" style="padding: 40px 0 20px; color: #000;">
+														<p class="sk-h2" style="font-size: 30px; line-height: 34px; margin: 0 0 20px; font-weight: bold;">
+															Od roku 1919 vytváříme<br> podmínky pro chytřejší svět
+														</p>
+													</td>
+													<td class="sk-pl20 sk-pr20 sk-pt0 sk-tac" style="padding: 40px 0 20px; text-align: right;">
+														<p style="line-height: 22px; margin: 0 0 20px;">
+															<a href="#">
+																<img src="./img/logo-muni.png" alt="MUNI" width="150" height="43" style="vertical-align: middle; border: none;">
+															</a>
+														</p>
+													</td>
+												</tr>
+											</table> <!-- / claim -->
+
+											<table class="sk-block-table-all" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center; border-bottom: 1px solid #eeeeee;">
+												<tr>
+													<td class="sk-pl20 sk-pr20" align="center" style="padding: 40px 0 20px;">
+														<table width="500" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width: 500px; text-align: left;">
+															<tr>
+																<td class="sk-pb10" style="vertical-align: top; width: 160px;">
+																	<p style="text-transform: uppercase; font-size: 18px; line-height: 24px; margin: 0 0 10px; color: #000; font-weight: bold;">
+																		Aktuálně
+																	</p>
+																	<p style="line-height: 24px; margin: 0 0 20px;">
+																		<a href="#" style="color: #0000DC;">Kalendář akcí</a><br>
+																		<a href="#" style="color: #0000DC;">Články</a><br>
+																		<a href="#" style="color: #0000DC;">Pro média</a><br>
+																		<a href="#" style="color: #0000DC;">Harmonogram</a>
+																	</p>
+																</td>
+																<td class="sk-hide" style="width: 20px;">&nbsp;</td>
+																<td class="sk-pb10" style="vertical-align: top; width: 160px;">
+																	<p style="text-transform: uppercase; font-size: 18px; line-height: 24px; margin: 0 0 10px; color: #000; font-weight: bold;">
+																		Uchazeč
+																	</p>
+																	<p style="line-height: 24px; margin: 0 0 20px;">
+																		<a href="#" style="color: #0000DC;">Kalendář akcí</a><br>
+																		<a href="#" style="color: #0000DC;">Články</a><br>
+																		<a href="#" style="color: #0000DC;">Pro média</a><br>
+																		<a href="#" style="color: #0000DC;">Harmonogram</a>
+																	</p>
+																</td>
+																<td class="sk-hide" style="width: 20px;">&nbsp;</td>
+																<td style="vertical-align: top; width: 160px;">
+																	<p style="text-transform: uppercase; font-size: 18px; line-height: 24px; margin: 0 0 10px; color: #000; font-weight: bold;">
+																		Výzkum
+																	</p>
+																	<p style="line-height: 24px; margin: 0 0 20px;">
+																		<a href="#" style="color: #0000DC;">Kalendář akcí</a><br>
+																		<a href="#" style="color: #0000DC;">Články</a><br>
+																		<a href="#" style="color: #0000DC;">Pro média</a><br>
+																		<a href="#" style="color: #0000DC;">Harmonogram</a>
+																	</p>
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table> <!-- / box category -->
+											
+											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center; border-bottom: 1px solid #eeeeee;">
+												<tr>
+													<td align="center" style="padding: 40px 0;">
 														<table border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; text-align: center;">
 															<tr>
 																<td class="sk-pl10 sk-pr10" style="padding: 0 15px;">
-																	<a href="mailto:newsletter@muni.cz" style="color: <?php echo $color; ?>; text-decoration: none;">
-																		<img src="./img/ico-email.png" alt="E-mail" width="15" height="13" style="vertical-align: middle; border: none;" />&nbsp;
+																	<a href="mailto:newsletter@muni.cz" style="color: #0000DC; text-decoration: none;">
+																		<img src="./img/ico-email.png" alt="E-mail" width="15" height="13" style="vertical-align: middle; border: none;">&nbsp;
 																		<span style="text-decoration: underline;">newsletter@muni.cz</span>
 																	</a>
 																</td>
 																<td class="sk-pl10 sk-pr10" style="padding: 0 15px;">
-																	<a href="mailto:newsletter@muni.cz" style="color: <?php echo $color; ?>; text-decoration: none;">
-																		<img src="./img/ico-book.png" alt="Web" width="14" height="14" style="vertical-align: middle; border: none;" />&nbsp;
+																	<a href="mailto:newsletter@muni.cz" style="color: #0000DC; text-decoration: none;">
+																		<img src="./img/ico-book.png" alt="Web" width="14" height="14" style="vertical-align: middle; border: none;">&nbsp;
 																		<span style="text-decoration: underline;">online.muni.cz</span>
 																	</a>
 																</td>
@@ -306,95 +398,32 @@
 													</td>
 												</tr>
 											</table> <!-- / box links -->
-
-											<table class="sk-block-table-all" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center; border-bottom: 1px solid #ddd;">
+											
+											<table class="sk-block-table-all" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 												<tr>
-													<td class="sk-pl20 sk-pr20" align="center" style="padding: 25px 0 5px;">
-														<table width="500" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width: 500px; text-align: left;">
-															<tr>
-																<td class="sk-pb10" style="vertical-align: top; width: 150px;">
-																	<p style="text-transform: uppercase; font-size: 14px; line-height: 24px; margin: 0 0 10px; font-family: Tahoma, Verdana, sans-serif; color: #000; font-weight: bold;">
-																		Kategorie
-																	</p>
-																	<p style="line-height: 24px; margin: 0 0 20px;">
-																		<a href="#" style="color: <?php echo $color; ?>;">Kalendář akcí</a><br />
-																		<a href="#" style="color: <?php echo $color; ?>;">Články</a><br />
-																		<a href="#" style="color: <?php echo $color; ?>;">Pro média</a><br />
-																		<a href="#" style="color: <?php echo $color; ?>;">Harmonogram</a>
-																	</p>
-																</td>
-																<td class="sk-hide" style="width: 25px;">&nbsp;</td>
-																<td class="sk-pb10" style="vertical-align: top; width: 150px;">
-																	<p style="text-transform: uppercase; font-size: 14px; line-height: 24px; margin: 0 0 10px; font-family: Tahoma, Verdana, sans-serif; color: #000; font-weight: bold;">
-																		Další kategorie
-																	</p>
-																	<p style="line-height: 24px; margin: 0 0 20px;">
-																		<a href="#" style="color: <?php echo $color; ?>;">Kalendář akcí</a><br />
-																		<a href="#" style="color: <?php echo $color; ?>;">Články</a><br />
-																		<a href="#" style="color: <?php echo $color; ?>;">Pro média</a><br />
-																		<a href="#" style="color: <?php echo $color; ?>;">Harmonogram</a>
-																	</p>
-																</td>
-																<td class="sk-hide" style="width: 25px;">&nbsp;</td>
-																<td style="vertical-align: top; width: 150px;">
-																	<p style="text-transform: uppercase; font-size: 14px; line-height: 24px; margin: 0 0 10px; font-family: Tahoma, Verdana, sans-serif; color: #000; font-weight: bold;">
-																		Třetí kategorie
-																	</p>
-																	<p style="line-height: 24px; margin: 0 0 20px;">
-																		<a href="#" style="color: <?php echo $color; ?>;">Kalendář akcí</a><br />
-																		<a href="#" style="color: <?php echo $color; ?>;">Články</a><br />
-																		<a href="#" style="color: <?php echo $color; ?>;">Pro média</a><br />
-																		<a href="#" style="color: <?php echo $color; ?>;">Harmonogram</a>
-																	</p>
-																</td>
-															</tr>
-														</table>
+													<td class="sk-pl20 sk-pr20 sk-pb0 sk-tac" style="padding: 40px 0 20px; color: #000;">
+														<p style="line-height: 22px; margin: 0 0 20px;">
+															© 2016 Masarykova univerzita.<br>
+															 Všechna práva vyhrazena.
+														</p>
+													</td>
+													<td class="sk-pl20 sk-pr20 sk-pt0 sk-tac" style="padding: 40px 0 20px; text-align: right;">
+														<p style="line-height: 22px; margin: 0 0 20px;">
+															<a href="#" style="text-decoration: none;">
+																<img src="./img/ico-facebook.png" alt="Facebook" width="22" height="22" style="border: none; vertical-align: top;">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<a href="#" style="text-decoration: none;">
+																<img src="./img/ico-twitter.png" alt="Twitter" width="22" height="22" style="border: none; vertical-align: top;">
+															</a>
+															&nbsp;&nbsp;&nbsp;
+															<a href="#" style="text-decoration: none;">
+																<img src="./img/ico-instagram.png" alt="Instagram" width="22" height="22" style="border: none; vertical-align: top;">
+															</a>
+														</p>
 													</td>
 												</tr>
-											</table> <!-- / box category -->
-
-											<table width="279" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width: 279px; text-align: center;">
-												<tr>
-													<td style="padding: 30px 0;">
-														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: center;">
-															<tr>
-																<td style="width: 33.333%; background: #395794;">
-																	<div><!--[if mso]>
-																	  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:50px;v-text-anchor:middle;width:93px;" strokecolor="#395794" strokeweight="0px" fillcolor="#395794">
-																	    <w:anchorlock/>
-																	    <center style="color:#fff;font-family:sans-serif;font-size:12px;text-transform: uppercase;"><img src="./img/facebook.png" alt="Facebook" width="17" height="50" style="vertical-align: top; border: none;" /></center>
-																	  </v:rect>
-																	<![endif]--><a href="#" style="color:#fff;display:inline-block;font-family:sans-serif;font-size:12px;text-transform: uppercase;line-height:50px;text-align:center;text-decoration:none;width:93px;-webkit-text-size-adjust:none;mso-hide:all;"><img src="./img/facebook.png" alt="Facebook" width="17" height="50" style="vertical-align: top; border: none;" /></a></div>
-																</td>
-																<td style="width: 33.333%; background: #27a8df;">
-																	<div><!--[if mso]>
-																	  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:50px;v-text-anchor:middle;width:93px;" strokecolor="#27a8df" strokeweight="0px" fillcolor="#27a8df">
-																	    <w:anchorlock/>
-																	    <center style="color:#fff;font-family:sans-serif;font-size:12px;text-transform: uppercase;"><img src="./img/twitter.png" alt="Twitter" width="28" height="50" style="vertical-align: top; border: none;" /></center>
-																	  </v:rect>
-																	<![endif]--><a href="#" style="color:#fff;display:inline-block;font-family:sans-serif;font-size:12px;text-transform: uppercase;line-height:50px;text-align:center;text-decoration:none;width:93px;-webkit-text-size-adjust:none;mso-hide:all;"><img src="./img/twitter.png" alt="Twitter" width="28" height="50" style="vertical-align: top; border: none;" /></a></div>
-																</td>
-																<td style="width: 33.333%; background: #0177b4;">
-																	<div><!--[if mso]>
-																	  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:50px;v-text-anchor:middle;width:93px;" strokecolor="#0177b4" strokeweight="0px" fillcolor="#0177b4">
-																	    <w:anchorlock/>
-																	    <center style="color:#fff;font-family:sans-serif;font-size:12px;text-transform: uppercase;"><img src="./img/linkedin.png" alt="LinkedIn" width="26" height="50" style="vertical-align: top; border: none;" /></center>
-																	  </v:rect>
-																	<![endif]--><a href="#" style="color:#fff;display:inline-block;font-family:sans-serif;font-size:12px;text-transform: uppercase;line-height:50px;text-align:center;text-decoration:none;width:93px;-webkit-text-size-adjust:none;mso-hide:all;"><img src="./img/linkedin.png" alt="LinkedIn" width="26" height="50" style="vertical-align: top; border: none;" /></a></div>
-																</td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table> <!-- / box social -->
-
-											<p style="line-height: 1; margin: 0 0 15px;">
-												<img src="./img/logo-footer.png" alt="" width="70" height="70" style="vertical-align: middle; border: none;" />
-											</p>
-											<p style="color: <?php echo $colorLight; ?>; font-size: 12px; line-height: 16px; margin: 0;">
-												&copy; 2016<br />
-												Masarykova univerzita Brno
-											</p>
+											</table> <!-- / copyrights -->
 										</td>
 									</tr>
 								</table>
@@ -403,10 +432,10 @@
 						</tr>
 					</table> <!-- / row main -->
 
-					<img src="./img/spacer.png" width="700" height="1" class="nl-hide" style="border: none; vertical-align: top; min-width: 700px; display: block;" />
+					<img src="./img/spacer.png" width="700" height="1" class="nl-hide" style="border: none; vertical-align: top; min-width: 700px; display: block;">
 				</td>
 			</tr>
-		</table><!-- / wrap -->
+		</table><!-- / footer -->
 
 	</body>
 </html>
