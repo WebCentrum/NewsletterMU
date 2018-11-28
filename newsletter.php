@@ -202,14 +202,15 @@
 						<tr class="sk-block">
 							<td class="sk-block">
 								<table class="sk-block-table" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+									<!-- v 1 -->
 									<tr class="sk-block">
-										<td class="sk-block sk-pl20 sk-pr20 sk-pb0" style="vertical-align: top; padding: 15px 20px 50px 0;">
-											<!-- <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb0" style="vertical-align: top; padding: 15px 0 50px;">
+											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 												<tr>
 													<td style="width: 120px;">
 														<p style="margin: 0; line-height: 1;">
 															<a href="#" style="text-decoration: none;">
-																<img src="./img/logo-muni.png" alt="Masarykova univerzita" width="100" height="29" style="vertical-align: top; border: none;">
+																<img src="./img/logo-muni-simple.png" alt="Masarykova univerzita" width="100" height="29" style="vertical-align: top; border: none;">
 															</a>
 														</p>
 													</td>
@@ -219,26 +220,56 @@
 														</p>
 													</td>
 												</tr>
-											</table> -->
-											<p style="margin: 3px 0 0; line-height: 1;">
-												<a href="#" style="text-decoration: none;">
-													<img src="./img/logo-muni-sci.png" alt="MUNI - SCI" width="310" height="72" style="vertical-align: top; border: none;">
-												</a>
-											</p>
+											</table>
 										</td>
-										<td class="sk-block sk-pl20 sk-pr20 sk-pb20 sk-tal" style="vertical-align: top; text-align: right; color: #0000DC; padding: 15px 0 50px;">
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb20 sk-tal" style="vertical-align: top; text-align: right; color: #0000DC; padding: 15px 0 50px 20px;">
 											<p style="margin: 0; line-height: 18px;">
 												<span class="sk-hide">
 													<a href="#" style="color: #0000DC;">Webová verze</a> &nbsp;|&nbsp;
 													<a href="#" style="color: #0000DC;">online.muni.cz</a> &nbsp;|&nbsp;
 												</span>
-												<span style="white-space: nowrap;">
-													Newsletter 02/2019
+												Newsletter 02/2019 &nbsp;|&nbsp;
+												<span class="sk-hide">Odesláno</span> 17. 2. 2019<span class="sk-hide">, 8:36</span>
+											</p>
+										</td>
+									</tr>
+									<!-- v 2 -->
+									<tr class="sk-block">
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb0" style="vertical-align: top; padding: 15px 0 50px;">
+											<p style="margin: 0; line-height: 1;">
+												<a href="#" style="text-decoration: none;">
+													<img src="./img/logo-muni.png" alt="Masarykova univerzita" width="205" height="29" style="vertical-align: top; border: none;">
+												</a>
+											</p>
+										</td>
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb20 sk-tal" style="vertical-align: top; text-align: right; color: #0000DC; padding: 15px 0 50px 20px;">
+											<p style="margin: 0; line-height: 18px;">
+												<span class="sk-hide">
+													<a href="#" style="color: #0000DC;">Webová verze</a> &nbsp;|&nbsp;
+													<a href="#" style="color: #0000DC;">online.muni.cz</a> &nbsp;|&nbsp;
 												</span>
-												<span style="white-space: nowrap;">
-													&nbsp;|&nbsp;
-													<span class="sk-hide">Odesláno</span> 17. 2. 2019<span class="sk-hide">, 8:36</span>
+												Newsletter 02/2019 &nbsp;|&nbsp;
+												<span class="sk-hide">Odesláno</span> 17. 2. 2019<span class="sk-hide">, 8:36</span>
+											</p>
+										</td>
+									</tr>
+									<!-- v 3 -->
+									<tr class="sk-block">
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb0" style="vertical-align: top; padding: 15px 0 50px;">
+											<p style="margin: 0; line-height: 1;">
+												<a href="#" style="text-decoration: none;">
+													<img src="./img/logo-muni-sci.png" alt="MUNI – SCI" width="310" height="72" style="vertical-align: top; border: none;">
+												</a>
+											</p>
+										</td>
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb20 sk-tal" style="vertical-align: top; text-align: right; color: #0000DC; padding: 15px 0 50px 20px;">
+											<p style="margin: 0; line-height: 18px;">
+												<span class="sk-hide">
+													<a href="#" style="color: #0000DC;">Webová verze</a> &nbsp;|&nbsp;
+													<a href="#" style="color: #0000DC;">online.muni.cz</a> &nbsp;|&nbsp;
 												</span>
+												Newsletter 02/2019 &nbsp;|&nbsp;
+												<span class="sk-hide">Odesláno</span> 17. 2. 2019<span class="sk-hide">, 8:36</span>
 											</p>
 										</td>
 									</tr>
@@ -396,9 +427,17 @@
 																	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 																		<tr>
 																			<td style="padding: 0 0 20px;">
-																				<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 30px 0;">
-																					<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-																				</p>
+																				<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+																					<tr>
+																						<td style="padding: 30px 0 0;">
+																							<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																								<tr>
+																									<td style="height: 30px; border-top: 2px solid #000;"></td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
 																				<div><!--[if mso]>
 																				<v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:160px;" strokecolor="#0000DC" strokewidth="2" fillcolor="#ffffff">
 																					<w:anchorlock/>
@@ -447,9 +486,17 @@
 																	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 																		<tr>
 																			<td style="padding: 0 0 20px;">
-																				<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 30px 0;">
-																					<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-																				</p>
+																				<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+																					<tr>
+																						<td style="padding: 30px 0 0;">
+																							<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																								<tr>
+																									<td style="height: 30px; border-top: 2px solid #000;"></td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
 																				<div><!--[if mso]>
 																				<v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:160px;" strokecolor="#0000DC" strokewidth="2" fillcolor="#ffffff">
 																					<w:anchorlock/>
@@ -528,9 +575,17 @@
 																	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 																		<tr>
 																			<td style="padding: 0 0 20px;">
-																				<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 30px 0;">
-																					<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-																				</p>
+																				<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+																					<tr>
+																						<td style="padding: 30px 0 0;">
+																							<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																								<tr>
+																									<td style="height: 30px; border-top: 2px solid #000;"></td>
+																								</tr>
+																							</table>
+																						</td>
+																					</tr>
+																				</table>
 																				<div><!--[if mso]>
 																				<v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:160px;" strokecolor="#0000DC" strokewidth="2" fillcolor="#ffffff">
 																					<w:anchorlock/>
@@ -643,9 +698,17 @@
 														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 															<tr>
 																<td style="padding: 0 0 20px;">
-																	<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 30px 0;">
-																		<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-																	</p>
+																	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+																		<tr>
+																			<td style="padding: 10px 0 0;">
+																				<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																					<tr>
+																						<td style="height: 30px; border-top: 2px solid #000;"></td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																	</table>
 																	<div><!--[if mso]>
 																	<v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:160px;" strokecolor="#0000DC" strokewidth="2" fillcolor="#FAFAFA">
 																		<w:anchorlock/>
@@ -697,9 +760,17 @@
 														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:14px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
 															<tr>
 																<td style="padding: 0 0 20px;">
-																	<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 30px 0;">
-																		<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-																	</p>
+																	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+																		<tr>
+																			<td style="padding: 10px 0 0;">
+																				<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																					<tr>
+																						<td style="height: 30px; border-top: 2px solid #000;"></td>
+																					</tr>
+																				</table>
+																			</td>
+																		</tr>
+																	</table>
 																	<div><!--[if mso]>
 																	<v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:40px;v-text-anchor:middle;width:160px;" strokecolor="#0000DC" strokewidth="2" fillcolor="#FAFAFA">
 																		<w:anchorlock/>
@@ -816,9 +887,17 @@
 																Krátká zpráva na jeden řádek
 															</a>
 														</h3>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="line-height: 22px; margin: 0 0 20px;">
 															Na činnost univerzity bude nově dohlížet někdejší soudkyně Ústavního soudu Dagmar Lastovecká, generální ředitel společnosti Siemens Eduard Palíšek, někdejší generální ředitel České spořitelny Pavel Kysilka a předseda Českého svazu biatlonu Jiří Hamza.
 														</p>
@@ -836,9 +915,17 @@
 																Krátká zpráva na jeden řádek
 															</a>
 														</h3>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="line-height: 22px; margin: 0 0 20px;">
 															Na činnost univerzity bude nově dohlížet někdejší soudkyně Ústavního soudu Dagmar Lastovecká, generální ředitel společnosti Siemens Eduard Palíšek.
 														</p>
@@ -853,9 +940,17 @@
 																Krátká zpráva na jeden řádek
 															</a>
 														</h3>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="line-height: 22px; margin: 0 0 20px;">
 															Na činnost univerzity bude nově dohlížet někdejší soudkyně Ústavního soudu Dagmar Lastovecká, generální ředitel společnosti Siemens Eduard Palíšek, někdejší generální ředitel České spořitelny Pavel Kysilka a předseda Českého svazu biatlonu Jiří Hamza.
 														</p>
@@ -970,9 +1065,17 @@
 																Krátká zpráva na jeden řádek
 															</a>
 														</h3>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="margin: 0 0 20px; line-height: 22px;">
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat felis dui. Nullam nec varius ipsum. Aenean sit amet magna libero. Integer in lacus id magna.
 														</p>
@@ -988,9 +1091,17 @@
 																Krátká zpráva na jeden řádek
 															</a>
 														</h3>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="margin: 0 0 20px; line-height: 22px;">
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat felis dui. Nullam nec varius ipsum. Aenean sit amet magna libero. Integer in lacus id magna.
 														</p>
@@ -1006,9 +1117,17 @@
 																Krátká zpráva na jeden řádek
 															</a>
 														</h3>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="margin: 0 0 20px; line-height: 22px;">
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat felis dui. Nullam nec varius ipsum. Aenean sit amet magna libero. Integer in lacus id magna.
 														</p>
@@ -1024,9 +1143,17 @@
 																Krátká zpráva na jeden řádek
 															</a>
 														</h3>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="margin: 0 0 20px; line-height: 22px;">
 															Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat felis dui. Nullam nec varius ipsum. Aenean sit amet magna libero. Integer in lacus id magna.
 														</p>
@@ -1067,9 +1194,17 @@
 																Dlouhý název pracovní pozice na MU
 															</a>
 														</h2>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="line-height: 22px; margin: 0 0 20px;">
 															Krátký popis pozice. Na činnost univerzity bude nově dohlížet někdejší soudkyně Ústavního soudu Dagmar Lastovecká, generální ředitel společnosti Siemens Eduard Palíšek.
 														</p>
@@ -1097,9 +1232,17 @@
 																Asistent děkana
 															</a>
 														</h2>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="line-height: 22px; margin: 0 0 20px;">
 															Krátký popis pozice. Na činnost univerzity bude nově dohlížet někdejší soudkyně Ústavního soudu Dagmar Lastovecká, generální ředitel společnosti Siemens Eduard Palíšek.
 														</p>
@@ -1137,9 +1280,17 @@
 																Asistent děkana
 															</a>
 														</h2>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="line-height: 22px; margin: 0 0 20px;">
 															Krátký popis pozice. Na činnost univerzity bude nově dohlížet někdejší soudkyně Ústavního soudu Dagmar Lastovecká, generální ředitel společnosti Siemens Eduard Palíšek.
 														</p>
@@ -1167,9 +1318,17 @@
 																Dlouhý název pracovní pozice na MU
 															</a>
 														</h2>
-														<p style="font-size: 0px; line-height: 2px; height: 2px; overflow: hidden; margin: 15px 0;">
-															<img src="./img/line.png" alt="" width="37" height="2" style="border: none; vertical-align: middle;">
-														</p>
+														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+															<tr>
+																<td>
+																	<table width="37" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:16px; font-family: Arial, Helvetica, sans-serif; width:37xp; text-align: left;">
+																		<tr>
+																			<td style="height: 15px; border-top: 2px solid #000;"></td>
+																		</tr>
+																	</table>
+																</td>
+															</tr>
+														</table>
 														<p style="line-height: 22px; margin: 0 0 20px;">
 															Krátký popis pozice. Na činnost univerzity bude nově dohlížet někdejší soudkyně Ústavního soudu Dagmar Lastovecká, generální ředitel společnosti Siemens Eduard Palíšek.
 														</p>
