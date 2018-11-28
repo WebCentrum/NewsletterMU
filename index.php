@@ -201,6 +201,7 @@
 						<tr class="sk-block">
 							<td class="sk-block">
 								<table class="sk-block-table" width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
+									<!-- v 1 -->
 									<tr class="sk-block">
 										<td class="sk-block sk-pl20 sk-pr20 sk-pb0" style="vertical-align: top; padding: 15px 0 50px;">
 											<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica, sans-serif; width:100%; text-align: left;">
@@ -208,7 +209,7 @@
 													<td style="width: 120px;">
 														<p style="margin: 0; line-height: 1;">
 															<a href="#" style="text-decoration: none;">
-																<img src="http://newsletter-muni2018.superkoderi.cz/img/logo-muni.png" alt="Masarykova univerzita" width="100" height="29" style="vertical-align: top; border: none;">
+																<img src="./img/logo-muni-simple.png" alt="Masarykova univerzita" width="100" height="29" style="vertical-align: top; border: none;">
 															</a>
 														</p>
 													</td>
@@ -220,7 +221,47 @@
 												</tr>
 											</table>
 										</td>
-										<td class="sk-block sk-pl20 sk-pr20 sk-pb20 sk-tal" style="vertical-align: top; text-align: right; color: #0000DC; padding: 15px 0 50px;">
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb20 sk-tal" style="vertical-align: top; text-align: right; color: #0000DC; padding: 15px 0 50px 20px;">
+											<p style="margin: 0; line-height: 18px;">
+												<span class="sk-hide">
+													<a href="#" style="color: #0000DC;">Webová verze</a> &nbsp;|&nbsp;
+													<a href="#" style="color: #0000DC;">online.muni.cz</a> &nbsp;|&nbsp;
+												</span>
+												Newsletter 02/2019 &nbsp;|&nbsp;
+												<span class="sk-hide">Odesláno</span> 17. 2. 2019<span class="sk-hide">, 8:36</span>
+											</p>
+										</td>
+									</tr>
+									<!-- v 2 -->
+									<tr class="sk-block">
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb0" style="vertical-align: top; padding: 15px 0 50px;">
+											<p style="margin: 0; line-height: 1;">
+												<a href="#" style="text-decoration: none;">
+													<img src="./img/logo-muni.png" alt="Masarykova univerzita" width="205" height="29" style="vertical-align: top; border: none;">
+												</a>
+											</p>
+										</td>
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb20 sk-tal" style="vertical-align: top; text-align: right; color: #0000DC; padding: 15px 0 50px 20px;">
+											<p style="margin: 0; line-height: 18px;">
+												<span class="sk-hide">
+													<a href="#" style="color: #0000DC;">Webová verze</a> &nbsp;|&nbsp;
+													<a href="#" style="color: #0000DC;">online.muni.cz</a> &nbsp;|&nbsp;
+												</span>
+												Newsletter 02/2019 &nbsp;|&nbsp;
+												<span class="sk-hide">Odesláno</span> 17. 2. 2019<span class="sk-hide">, 8:36</span>
+											</p>
+										</td>
+									</tr>
+									<!-- v 3 -->
+									<tr class="sk-block">
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb0" style="vertical-align: top; padding: 15px 0 50px;">
+											<p style="margin: 0; line-height: 1;">
+												<a href="#" style="text-decoration: none;">
+													<img src="./img/logo-muni-sci.png" alt="MUNI – SCI" width="310" height="72" style="vertical-align: top; border: none;">
+												</a>
+											</p>
+										</td>
+										<td class="sk-block sk-pl20 sk-pr20 sk-pb20 sk-tal" style="vertical-align: top; text-align: right; color: #0000DC; padding: 15px 0 50px 20px;">
 											<p style="margin: 0; line-height: 18px;">
 												<span class="sk-hide">
 													<a href="#" style="color: #0000DC;">Webová verze</a> &nbsp;|&nbsp;
@@ -323,7 +364,7 @@
 													<td class="sk-pl20 sk-pr20 sk-pt0 sk-tac" style="padding: 40px 0 20px; text-align: right;">
 														<p style="line-height: 22px; margin: 0 0 20px;">
 															<a href="#">
-																<img src="./img/logo-muni.png" alt="MUNI" width="150" height="43" style="vertical-align: middle; border: none;">
+																<img src="./img/logo-muni-simple.png" alt="MUNI" width="150" height="43" style="vertical-align: middle; border: none;">
 															</a>
 														</p>
 													</td>
